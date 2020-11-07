@@ -14,5 +14,27 @@
 .item-article {
     width: 30%;
     height: 100px;
-    background-color: aqua;
+}
+
+.item-article>h2 {
+    font-family: sans-serif;
+    font-size: 40 px;
+    line-height: 40px;
+    color: #025157;
+}
+
+.item-article>p {
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.item-article>form {
+    display: flex;
+}
+
+.item-article>form>p {
+    color: #025157;
+    margin-right: 18px;
 }
