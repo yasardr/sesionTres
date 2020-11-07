@@ -8,19 +8,20 @@
     display: flex;
     width: 70%;
     margin: 100px auto;
-    align-items: center;
+    justify-content: center;
 }
 
 .item-article {
-    width: 30%;
-    height: 100px;
+    width: 45%;
+    margin-left: 20px;
 }
 
-.item-article>h2 {
-    font-family: sans-serif;
-    font-size: 40 px;
-    line-height: 40px;
+.item-article>h3 {
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
     color: #025157;
+    margin: 0;
 }
 
 .item-article>p {
@@ -32,9 +33,31 @@
 
 .item-article>form {
     display: flex;
+    flex-direction: column;
 }
 
 .item-article>form>p {
-    color: #025157;
+    color: gray;
     margin-right: 18px;
+}
+
+.item-article>form>p {
+    color: gray;
+    margin-right: 18px;
+}
+
+.item-article>form>div>button {
+    background-color: #025157;
+    color: white;
+}
+
+.item-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.explanatory-video>img {
+    width: 120px;
 }
